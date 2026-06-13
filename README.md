@@ -1,2 +1,2 @@
 # ThinkLab-NLP
-NLP-based Product Review Classification system using Machine Learning and Deep Learning models with evaluation and comparison.
+NLP-based Product Review Sentiment Classification System using Machine Learning and Deep Learning Models with Performance Evaluation and Comparison.
