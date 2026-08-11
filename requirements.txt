@@ -3,6 +3,5 @@ numpy
 matplotlib
 scikit-learn
 nltk
-tensorflow
 joblib
 streamlit
