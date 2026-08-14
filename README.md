@@ -407,14 +407,14 @@ directory of the main project repository for final project integration.
 **Student ID:** CIT-24-01-0118
 
 **Contribution:**  
-NLP Pipeline, Model Development, Data Preparation, App Integration & Deployment
+NLP Pipeline, Model Development, App development & Deployment
 
 ### Shalitha Sachithra
 
 **Student ID:** CIT-24-01-0084
 
 **Contribution:**  
-NLP Pipeline, Model Development, Evaluation & UI Development
+NLP Pipeline, Model Development, App development & UI Design
 
 ### Pawan Vihanga
 
