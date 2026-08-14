@@ -192,13 +192,11 @@ Provides an overview of the system including:
 
 ### Single Prediction
 
-Allows the user to enter an individual product review and obtain a sentiment prediction.
+Allows the user to enter an individual product review and classify it as
+Positive, Neutral, or Negative.
 
-The predicted sentiment can be:
-
-- Positive
-- Neutral
-- Negative
+The page also provides a clear-result control so the user can reset the
+displayed prediction before analyzing another review.
 
 ### Bulk Prediction
 
@@ -220,11 +218,13 @@ Features include:
 
 Provides model and prediction analytics including:
 
-- Model comparison
-- Accuracy comparison
-- Macro F1 comparison
-- Final model information
-- Bulk prediction analytics
+- Comparison of all six evaluated models
+- Highest-accuracy model highlight
+- Best Machine Learning model by Macro F1
+- Best Deep Learning and final model highlight
+- Accuracy and Macro F1 comparison
+- Explanation of the BERT final model selection
+- Session-based bulk prediction analytics
 
 ### About
 
@@ -300,31 +300,25 @@ ThinkLab-NLP/
 
 ## Running the Web Application Locally
 
-### 1. Clone the repository
+### 1. Clone the web application repository
 
 ```bash
-git clone https://github.com/Cpox123/ThinkLab-NLP.git
+git clone https://github.com/Cpox123/ThinkLab-NLP-WebApp.git
 ```
 
-### 2. Open the repository
+### 2. Open the project directory
 
 ```bash
-cd ThinkLab-NLP
+cd ThinkLab-NLP-WebApp
 ```
 
-### 3. Open the web application directory
-
-```bash
-cd webapp
-```
-
-### 4. Create a virtual environment
+### 3. Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### 5. Activate the environment
+### 4. Activate the environment
 
 #### Windows
 
@@ -338,13 +332,13 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-### 6. Install dependencies
+### 5. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 7. Run the application
+### 6. Run the application
 
 ```bash
 streamlit run app.py
@@ -356,7 +350,11 @@ Streamlit will start the application and provide a local browser URL.
 
 ## Deployment
 
-A separate repository is maintained for the deployed Streamlit application.
+The final ThinkLab Sentiment Analyzer is deployed using Streamlit Community Cloud.
+
+### Live Application
+
+https://thinklab-sentiment-review.streamlit.app
 
 ### Main Project Repository
 
@@ -366,9 +364,8 @@ https://github.com/Cpox123/ThinkLab-NLP
 
 https://github.com/Cpox123/ThinkLab-NLP-WebApp
 
-The final Streamlit application source is also included in the `webapp/` directory of this main repository.
-
----
+The complete Streamlit application source is also included in the `webapp/`
+directory of the main project repository for final project integration.
 
 ## Technologies Used
 
